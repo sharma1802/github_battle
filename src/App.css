@@ -72,3 +72,12 @@
   font-weight: 700;
   font-size: 1.75em;
 }
+
+.content-section-heading h2 {
+  font-size: 3rem;
+}
+
+.content-section-heading h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}

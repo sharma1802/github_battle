@@ -23,6 +23,20 @@ class App extends Component {
           </div>
           <div className="overlay"></div>
         </div>
+        
+
+        <section id="about">
+          <div className="container">
+            <div className="row">
+              <div className="">
+                <h2>Stylish Portfolio is the perfect theme for your next project!</h2>
+                <p className="lead">This theme features a flexible, UX friendly sidebar menu and stock photos from our friends at
+                <a href="https://unsplash.com/">Unsplash</a>!</p>
+                <a className="btn" href="#services">What We Offer</a>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     );
   }
