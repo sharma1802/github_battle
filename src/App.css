@@ -30,3 +30,45 @@
     transform: rotate(360deg);
   }
 }
+
+.btn-xl {
+  padding: 1.25rem 2.5rem;
+  background: #1d809f!important;
+  color: #fff;
+  font-weight: 700;
+  box-shadow: 0 3px 3px 0 rgba(0,0,0,.1);
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: .25rem;
+  transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.masthead {
+  min-height: 30rem;
+  position: relative;
+  width: 100%;
+  height: auto;
+  background: -webkit-gradient(linear, left top, right top, from(rgba(255, 255, 255, 0.1)), to(rgba(255, 255, 255, 0.1))), url("bg-masthead.jpg");
+  background:  url("bg-masthead.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.heading{
+  font-size: 4em;
+  margin: 0.05em 0;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh; 
+  justify-content: center;
+}
+
+.subHeading{
+  font-weight: 700;
+  font-size: 1.75em;
+}

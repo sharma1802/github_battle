@@ -1,25 +1,28 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
+import Nav from './components/navbar/Nav';
+
 
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
+      <div>
+        <div className="App">
+          <a className="menu-toggle rounded" href="#">
+            <i className="fa fa-bars"></i>
           </a>
-        </header>
+        </div>
+        <div className="masthead">
+          <div className="container">
+            <h1 className="heading">Stylish Portfolio</h1>
+            <h3 className="subHeading">
+              <em>A Free Bootstrap Theme by Start Bootstrap</em>
+            </h3>
+            <a className="btn-xl" href="#about">Find Out More</a>
+          </div>
+          <div className="overlay"></div>
+        </div>
       </div>
     );
   }
